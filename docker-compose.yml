@@ -1,5 +1,6 @@
 services:
   notebook:
+    container_name: mlb
     build:
       context: ./
       dockerfile: Dockerfile

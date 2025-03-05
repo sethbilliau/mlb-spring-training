@@ -1,5 +1,17 @@
 # mlb-spring-training
 
+# Instructions
+
+The easiest way to run this app is to use the docker compose file, and the easiest way to use the docker compose file is to use Docker Desktop. If you're using Docker for personal use, you can download Docker Desktop and use it for free. Take a look at these instructions to download Docker Desktop: https://docs.docker.com/compose/install/#scenario-one-install-docker-desktop. 
+
+Once you have Docker Desktop, make sure that it is running. Then, open a terminal, change directory into the root repository for this GitHub Repo and run the following commands.
+
+1. Open the `docker-compose.yml` file and replace `~/Documents/GitHub/mlb-spring-training` with the path to this Github repository on your own computer or VM. Make sure to save the `docker-compose.yml`. 
+2. Run `docker compose up`. This runs the Dockerfile and mounts your virtual `app` folder to the directory path you set in step 1. Verify that there are no issues in the build. 
+3. The server will start and generate a link to your local host (127.0.0.1:8888) AND a token for your jupyter lab instance. You'll want to copy and paste this link in your favorite browser - if you just go to 127.0.0.1:8888, you'll be prompted for a password or token. All development that you do here will be preserved since you've mounted your repository and the `app` folder. 
+4. Once you're finished, shut down your kernel or close the terminal window. The container should stop automatically, but if something goes wrong, you can always run a `docker ps` to check for running containers and then run `docker stop mlb` to shut down this container. 
+
+
 # 2/28 Meeting TODOs
 Figure out a way to grab challenged pitches 
 
