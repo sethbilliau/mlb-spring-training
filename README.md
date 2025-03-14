@@ -35,5 +35,25 @@ TODOs
 # 3/14 Meeting 
 Daniel put together some analysis in minor-league-analysis.ipynb.
 
-Seth has been doing some manual 
+Seth has been doing some manual things. 
+
+Data TODOs 
+- [Blocker] Figure out a method to capture all ABS pitches
+- Write code that identifies pitches that should have been challenged (Seth)
+  - Called Strikes/balls that are:
+    - In the zone but were called a ball
+    - Out of the zone but were called a strike
+- Strike zone information
+  - Minor league data. 
+
+Analysis TODOs
+- Umpire Analysis 
+  - Questions
+    - What does ABS mean for umpires?
+- Team Strategic (Daniel)
+  - Develop Recommendations for batters and defense
+  - Questions
+    - Are some teams better or worse at challenging?
+    - What are the best pitches to challenge?
+    - When is the best time to challenge? 
 
