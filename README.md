@@ -31,3 +31,9 @@ TODOs
 - Creating graphics on challenged pitches
 - Analyzing batters vs. (catchers/pitchers), challenged pitchers and universe of challenge-able pitchers
 - Analyzing umpires
+
+# 3/14 Meeting 
+Daniel put together some analysis in minor-league-analysis.ipynb.
+
+Seth has been doing some manual 
+
