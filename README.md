@@ -33,7 +33,7 @@ TODOs
 - Analyzing umpires
 
 # 3/14 Meeting 
-Daniel put together some analysis in minor-league-analysis.ipynb.
+Daniel put together some analysis in minor-league-analysis.ipynb. Daniel found a great resource on the data dictionary of statcast data: https://github.com/armstjc/milb-data-repository/blob/main/pbp/pbp_guide.md
 
 Seth has been doing some manual things. 
 
