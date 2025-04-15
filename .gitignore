@@ -57,3 +57,5 @@ ___pycache__
 
 # Data 
 data
+
+venv/
